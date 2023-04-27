@@ -1,0 +1,272 @@
+.pat {
+    /*border: 10px red solid;*/
+}
+a {
+    text-decoration: none;
+    color: initial;   
+}
+
+li {
+    list-style-type: none;
+}
+
+.logoName {
+    margin: 10px;
+    font-size: 12px;
+    color: #512A1E;
+}
+
+.productName {
+    font-size: 17px;
+    color: #512A1E;
+    margin: 5px;
+}
+
+header {
+    /*border: 3px green solid;*/
+    display: flex;
+    flex-direction: column;
+}
+
+header nav {
+    /*border: 3px red solid;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+header .logo {
+    display: flex;
+    margin-left: 40px;
+}
+
+header .navSection {
+    /*border: 1px green solid;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-around;
+    height: fit-content;
+    width: 40%;
+}
+
+header .navSection span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #512A1E;
+    margin: 15px;
+}
+
+header .utilities {
+    /*border: 1px blue solid;*/
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    width: 80px;
+    margin-right: 40px;
+}
+
+input {
+    display: none;
+    
+}
+
+header .utilities .search {
+    /*border: 1px red solid;*/
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+header .utilities .search:hover input {
+    /*border: 1px blue solid;*/
+    display: initial;
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: -1;
+}
+
+header .utilities .trolley {
+    /*border: 1px red solid;*/
+    display: flex;
+    justify-content: space-between;
+    width: 38px;
+}
+
+.top {
+    background-color: #512A1E;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* -------------//////////////////////------------------/////////////////////-------------------*/
+
+main .products {
+    /*border: 5px blue solid;*/
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+main .products .blockName {
+    /*border: 3px green solid;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #512A1E;
+    font-weight: 700;
+    height: 40px;
+    margin-bottom: 80px;
+}
+
+main .products .blockName div {
+    /*border: 1px red solid;*/
+    min-width: fit-content;
+}
+
+main .products .line {
+    border: 1px #E0E0E0 solid;
+    height: 0;
+    width: 39%;
+    margin: 0 25px 0 25px;
+}
+
+main .productsList {
+    /*border: 3px red solid;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main .productsList .product {
+    /*border: 3px green solid;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+main .productsList .prodImg {
+    /*border: 1px green solid;*/
+    width: 300px;
+}
+
+main .product .addButon {
+    display: none;
+}
+
+main .product:hover .addButon {
+    /*border: 1px black solid;*/
+    border-radius: 20px;
+    background-color: #fff;
+    height: 30px;
+    width: 190px;
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+    margin-top: 90px;
+    display: initial;
+    opacity: .95;
+}
+
+main .product .addButon:hover {
+    background-color: #512A1E;
+    color: #fff;
+}
+
+
+
+/* -------------//////////////////////------------------/////////////////////--------------------*/
+
+footer {
+    background-color: #512A1E;
+    color: #fff;
+    padding: 50px 0 20px 60px;
+    margin-top: 60px;
+}
+
+footer a {
+   color: #fff;
+}
+footer a:hover{
+    text-decoration: underline;
+ }
+
+footer .footerNav {
+    /*border: 5px red  solid;*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .navSec {
+    /*border: 3px blue solid;*/
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+footer li {
+    margin: 7px;
+}
+
+.fb a {
+    color: black;
+    text-decoration: none;
+}
+
+.fb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.fb:hover, .fb a:hover {
+    color: #fff;
+    background-color: #3B5998;
+    text-decoration: none;
+}
+
+.insta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.insta img {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    border-radius: 30%;
+}
+
+.insta a {
+    color: black;
+    text-decoration: none;
+}
+
+.insta:hover, .insta a:hover {
+    color: #fff;
+    background-color: #497299;
+    text-decoration: none;
+}
