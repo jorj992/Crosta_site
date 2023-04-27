@@ -1,6 +1,8 @@
-.pat {
-    /*border: 10px red solid;*/
+body {
+    margin: 0;
+    padding: 0;
 }
+
 a {
     text-decoration: none;
     color: initial;   
